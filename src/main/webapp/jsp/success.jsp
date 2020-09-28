@@ -13,6 +13,7 @@
 <body>
     成功<br>
     success<br>
-    ${requestScope.message}<br/>
+    ${user.userName}<br/>
+    ${user.birthDay}<br/>
 </body>
 </html>

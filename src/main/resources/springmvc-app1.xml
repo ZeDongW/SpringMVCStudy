@@ -10,5 +10,6 @@
        http://www.springframework.org/schema/context/spring-context.xsd
        http://www.springframework.org/schema/mvc
        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+    <context:component-scan base-package="cn.zedongw.springmvcstudy.app1"></context:component-scan>
     <bean name="/hello.action" class="cn.zedongw.springmvcstudy.app1.HelloAction"></bean>
 </beans>

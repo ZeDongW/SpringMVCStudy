@@ -11,8 +11,8 @@
     <title>table</title>
   </head>
   <body>
-  <form action="add.do" >
-    <table>
+  <form action="${pageContext.request.contextPath}/user/add.do" method="POST" >
+    <table align="center">
       <tr>
         <td>用户名</td>
         <td><input type="text" name="userName"></td></td>
@@ -22,7 +22,7 @@
         <td><input type="text" name="birthDay"></td></td>
       </tr>
       <tr>
-        <td colspan="2"><input type="button" value="提交"></td></td>
+        <td colspan="2" align="center"><input type="submit" value="提交"></td></td>
       </tr>
     </table>
   </form>
