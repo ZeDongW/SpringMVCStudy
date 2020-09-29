@@ -35,4 +35,5 @@ dependencies {
     compile group: 'org.springframework', name: 'spring-beans', version: '5.2.9.RELEASE'
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    implementation 'jstl:jstl:1.2'
 }

@@ -15,14 +15,16 @@
     <table align="center">
       <tr>
         <td>用户名</td>
-        <td><input type="text" name="userName"></td></td>
+        <td><input type="text" name="userName"/></td>
       </tr>
       <tr>
         <td>生日</td>
-        <td><input type="text" name="birthDay"></td></td>
+        <td>
+          <input type="text" name="birthDay"/>
+        </td>
       </tr>
       <tr>
-        <td colspan="2" align="center"><input type="submit" value="提交"></td></td>
+        <td colspan="2" align="center"><input type="submit" value="提交"></td>
       </tr>
     </table>
   </form>
